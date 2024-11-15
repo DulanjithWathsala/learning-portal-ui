@@ -15,6 +15,14 @@ export default function Login() {
         <div className="mt-6 flex justify-center">
           <Button>Login</Button>
         </div>
+        <div className="mt-4 text-center">
+          <p className="text-gray-600">
+            Don&apos;t have an account?{" "}
+            <button className="text-blue-500 hover:text-blue-700">
+              Register here
+            </button>
+          </p>
+        </div>
       </div>
     </div>
   );
